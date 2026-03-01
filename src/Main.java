@@ -64,11 +64,12 @@ public class Main{
         int [] numbers ={10,20,30,40,50,60};
         int sum =0;
 
-        for (int i = 0; i< numbers.length; i++){
+        int i = 0;
+        while (i< numbers.length) {
             sum+= numbers [i];
 
 
-
+            i++;
         }
 
         System.out.println("sum of array = " + sum);
